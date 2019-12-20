@@ -37,8 +37,7 @@ defmodule Guardian.DB.Mixfile do
   defp deps do
     [
       {:guardian, "~> 1.0 or ~> 2.0"},
-      {:ecto, "~> 3.0"},
-      {:ecto_sql, "~> 3.1.0"},
+      {:ecto_sql, "~> 3.3"},
       {:postgrex, "~> 0.13", optional: true},
 
       # Tools
